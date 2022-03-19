@@ -1,0 +1,232 @@
+@media (max-width: 767px) {
+    .container{
+        width: 100%;
+    }
+    .fa-bars{
+        color: #000;
+        left: 700px;
+        font-size: 24px;
+    }
+    .header-nav{
+        position: absolute;
+        display: block;
+        left:  400px;
+        height: 300px;
+        transform: translateY(-210px);
+    }
+    .check:checked ~ .header-nav{
+        transition: all 2s  ease-in-out;
+        transform: translateY(0);
+    
+    
+    }
+    .header-img{
+        width: 70px;
+    }
+    .header__list-nav{
+        .link-bnt{
+            display: none;}
+        }
+        .header-wrap1{
+            .header-btnbox{
+                .headerbtn{
+                    padding: 10px 25px;
+                }
+            }
+
+            .header-title{
+                font-size: 30px;
+                width: 300px;
+            }
+            .header-text{
+                width: 300px;
+                font-size: 12px;
+            }
+        }
+        .header-wrappar{
+            display: flex;
+            .heaader-wrap2{
+                margin-top: 350px;
+                .header-pic1{
+                    width: 50px;
+                    margin-left: -100px;
+                    margin-top: -50px;
+                }
+            }
+            .header-wrap3{
+                margin-top: 210px;
+                padding-left: 60px;
+                .header-pic{
+                    width: 310px;
+                    height: 360px;
+                }
+            }
+        }
+        .section-title{
+            font-size: 30px;
+        }
+        .section-column{
+            display: flex;
+            margin-top: 96px;
+        
+            .section-col{
+                width: 200px;
+                height: 620px;
+                background: #F5F5F5;
+                margin: 10px;
+            }
+        }
+        .section-col1{
+            width: 200px;
+            height: 410px;
+            background-color: #F5F5F5;
+            margin: 10px;
+            .section-image{
+            width: 150px;
+            height: 150px;
+            margin-left: 30px;
+            }
+        }
+        .section-btn{
+            padding: 8px 15px;
+            font-size: 12px;
+        }
+        .section-image1{
+            width: 150px;
+            height: 150px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .section-list{
+            font-size: 18px;
+    
+        }
+        .section-taxt{
+            font-size: 14px;
+            width: 130px;
+
+        }
+        .section-col2{
+            width: 420px;
+            height: 200px;
+            margin-left: 230px;
+            margin-top: -210px;
+            .text2{
+                width: 200px;
+            }
+        }
+        .section-col2{
+            .section-image{
+                width: 150px;
+                height: 150px;
+                margin-left: 10px;
+            }
+        }
+        .main-holder{
+            .main__colunm-box{
+                .main-logo{
+                    font-size: 26px;
+                }
+                .main-text{
+                    width: 300px;
+                    font-size: 14px;
+                }
+                .main-nomber{
+                    font-size: 26px;
+                    .nomber{
+                        padding-left: 55px;
+                    }
+                }
+                .main-list{
+                    font-size: 12px;
+                    
+                    .main-desc{
+                    padding-left: 90px;
+                    }
+                    .main-desc2{
+                        padding-left: 20px;
+                    }
+                }
+            }
+            .main-img{
+                width: 300px;
+                margin-left: 40px;
+            }
+        }
+        .main__logo-pri{
+            font-size: 26px;
+        }
+        .main-picture{
+            width: 150px;
+            height: 150px;
+        }
+        .main-list{
+            font-size: 18px;
+        }
+        .main-taxt{
+            font-size: 14px;
+            width: 180px;
+        }
+        .main-btn{
+            width: 150px;
+            height: 40px;
+        }
+        .btn{
+            font-size: 14px;
+        }
+        .btn1{
+            font-size: 12px;
+        }
+        .main-btn1{
+            width: 150px;
+            height: 40px;
+        }
+        .main__wrap{
+            margin-top: -30px;
+        }
+        .main__wrap2{
+            margin-top: -6px;
+        }
+        .main__wrap3{
+            margin-top: -5px;
+        }
+        .footer-img{
+            width: 250px;
+            height: 250px;
+        }
+        .footer-box{
+            .footer-contact{
+                padding-left: 70px;
+                margin-top: 0px;
+                .footer-logo{
+                    font-size: 26px;
+                }
+                .footer-text{
+                    width: 300px;
+                    font-size: 14px;
+                }
+                .name{
+                    width: 200px;
+                    height: 30px;
+                }
+                .subsciber{
+                    padding: 10px 35px;
+                }
+            }
+        }
+        .footer-line{
+            width: 85%;
+            padding-left: 20px;
+        }
+        .footer__pic-box{
+            .footer-textp{
+                font-size: 14px;
+                margin-left: -310px;
+            }
+            .footer-picture{
+                width: 50px;
+                height: 15px;
+                margin-left: 60px;
+            }
+        }
+    }

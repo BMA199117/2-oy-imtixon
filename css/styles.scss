@@ -1,0 +1,355 @@
+$mainFonds:20px;
+$mainsizelogo:48px;
+$maintetx:30px;
+$btnCol: rgba(38, 50, 56, 1);
+$textCol: rgba(143, 149, 165, 1);
+$left:80px;
+@mixin btn {
+        text-decoration: none;
+        color: #fff;
+        font-family: poppins;
+        background-color: $btnCol;
+        padding: 20px 50px;
+        border-radius: 5 px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #fff;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.header-img-box{
+    width: 106px;
+    height: 34px;
+    padding-left: $left;
+}
+.site-nav{
+    display: flex;
+    padding-top: 50px;
+    position: fixed;
+}
+.header-nav{
+    display: flex;
+    margin: auto;
+    padding-left: 300px;
+    font-size: $mainFonds;
+    font-family: Poppins;
+}
+
+.check{
+    margin-left: 100px;
+    visibility: hidden;
+}
+.fa-bars{
+    position: absolute;
+    left: 800px;
+    top: 50px;
+    color: #fff;
+}
+.header__item-nav{
+    list-style-type: none;
+    .nav-link{
+        text-decoration: none;
+        padding: 20px;
+        color:rgba(38, 50, 56, 1);
+        &:hover{
+            color: #000;
+        }
+
+    }
+    .link-bnt{
+        padding-left: 150px;
+        border: solid 1px;
+        padding:  10px 20px;
+        margin-left: 150px;
+    }
+}
+.header-wrappar{
+    display: flex;
+    .heaader-wrap2{
+        margin-top: 350px;
+        .header-pic1{
+            width: 80px;
+        }
+    }
+    .header-wrap3{
+        margin-top: 200px;
+        padding-left: 80px;
+        .header-pic{
+            width: 600px;
+            height: 600px;
+        }
+    }
+}
+
+
+.header-wrap1{
+    padding-top: 226px;
+    padding-left: $left;
+    .header-title{
+        width: 386px;
+        font-size: 64px;
+        font-family: poppins;
+    }
+    .header-text{
+        width: 432px;
+        color: $textCol;
+        font-family: poppins;
+        margin-top: 40px;
+    }
+    .header-btnbox{
+        margin-top: 80px;
+        .headerbtn{
+            @include btn;
+        }
+    }
+}
+// --------------header end----------//
+
+
+section{
+    margin-left: 70px;
+}
+.section-title{
+    text-align: center;
+    margin-top: 160px;
+    font-size: $mainsizelogo;
+    font-family: poppins;
+}
+.section-column{
+    display: flex;
+    margin-top: 96px;
+
+    .section-col{
+        width: 380px;
+        height: 861px;
+        background: #F5F5F5;
+        margin: 10px;
+    }
+}
+.section-col1{
+    width: 380px;
+    height: 580px;
+    background-color: #F5F5F5;
+    margin: 10px;
+    .section-image{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    }
+}
+.section-image1{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.section-list{
+    padding-left: 50px;
+    font-size: $maintetx;
+    font-family: poppins;
+    padding-top: 30px;
+}
+.section-taxt{
+    width: 300px;
+    margin-left: 50px;
+    padding-top: 5px;
+    font-size: 16px;
+    color: $textCol;
+    font-family: poppins 100;
+}
+.section__btn-box{
+    padding-left: 50px;
+    padding-top: 36px
+}
+.section-btn{
+    @include btn;
+    padding:  10px 35px;
+}
+.section-col2{
+    display: flex;
+    width: 780px;
+    height: 270px;
+    background-color: #F5F5F5;
+    margin-left: 410px;
+    margin-top: -280px;
+// --------------section end------------//
+
+
+
+}
+.main-holder{
+    display: flex;
+    margin-top: 200px;
+    margin-left: $left;
+    .main-logo{
+        font-size: $mainsizelogo;
+        font-family: poppins;
+    }
+    .main-text{
+        width: 500px;
+        font-family: poppins 100;
+        color: $textCol;
+        font-size: $mainFonds;
+        padding-top: 23px;
+    }
+    .main-nomber{
+        color: $btnCol;
+        font-size: $mainsizelogo;
+        font-family: poppins;
+        margin-top: 50px;
+        .nomber{
+            padding-left: 100px;
+        }
+    }
+    .main-list{
+        color: $textCol;
+        font-size: $mainFonds;
+        font-family: poppins 100;
+        .main-desc{
+            padding-left: 120px;
+        }
+        .main-desc2{
+            padding-left: 50px;
+        }
+    }
+    .main-img{
+        width: 300px;
+        height: 350px;
+        margin-left: 150px;
+    }
+}
+.main__logo-pri{
+    font-size: $mainsizelogo;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 200px;
+}
+.main__wrapper-box{
+    display: flex;
+    margin-top: 200px;
+}
+.main__wrap{
+    margin-left: $left;
+
+}
+.main__wrap2{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.main__wrap3{
+    margin-top: -25px;
+    padding-left: 50px;
+}
+.main-list{
+    font-size: 28px;
+    font-family: poppins;
+    padding-top: 50px;
+}
+.main-taxt{
+    width: 300px;
+    font-family: poppins 100;
+    color: $textCol;
+    font-size: $mainFonds;
+    padding-top: 23px;  
+}
+.main-btn{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(238, 238, 238, 1);
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.main-btn1{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(238, 238, 238, 1);
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.btn{
+    font-family: poppins;
+    font-size: 24px;
+}
+.btn1{
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: poppins 100;
+    color: $textCol;
+}
+.main-btn:hover, .main-btn1:hover{
+    background-color: $btnCol;
+}
+//------main end-------//
+.footer-contact{
+    padding-left: 150px;
+    margin-top: 100px;
+}
+.footer-box{
+    display: flex;
+    margin-top: 200px;
+    margin-left: $left;
+    .footer-logo{
+        font-size: $mainsizelogo;
+        font-family: poppins;
+    }
+    .footer-text{
+        width: 600px;
+        color: $textCol;
+        font-size: $mainFonds 100;
+        margin-top: 30px;
+    }
+    .name{
+        margin-top: 50px;
+        width: 400px;
+        height: 40px;
+    }
+    .subsciber{
+        padding: 15px 55px;
+        background-color: $btnCol;
+        border: none;
+        color: #E5E5E5;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .subsciber:hover{
+        background-color: rgb(85, 84, 84);
+    }
+}
+.footer-line{
+    width: 1150px;
+    height: 1px;
+    background-color: #000;
+    margin: auto;
+    margin-top: 200px;
+}
+.footer__pic-box{
+    display: flex;
+    .footer-picture{
+        width: 70px;
+        height: 20px;
+        margin-left: $left;
+        margin-top: 30px;
+    }
+    .footer-textp{
+        font-size: 16px;
+        font-family: poppins;
+        color: $textCol;
+        margin: auto;
+        padding-left: 550px;
+        margin-top: 30px;
+    }
+}
+//-----footer end-----//
