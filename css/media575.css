@@ -1,6 +1,7 @@
 @media (max-width: 575px) {
   .container {
     width: 100%;
+    position: relative;
   }
   .fa-bars {
     position: absolute;
