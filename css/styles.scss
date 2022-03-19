@@ -10,7 +10,7 @@ $left:80px;
         font-family: poppins;
         background-color: $btnCol;
         padding: 20px 50px;
-        border-radius: 5 px;
+        border-radius: 5px;
 }
 
 
@@ -110,6 +110,7 @@ body{
     .header-btnbox{
         margin-top: 80px;
         .headerbtn{
+            border-radius: 5px;
             @include btn;
         }
     }
@@ -224,8 +225,8 @@ section{
         }
     }
     .main-img{
-        width: 300px;
-        height: 350px;
+        width: 400px;
+        height: 460px;
         margin-left: 150px;
     }
 }

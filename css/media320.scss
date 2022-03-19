@@ -1,10 +1,14 @@
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .container{
         width: 100%;
     }
     .fa-bars{
         position: absolute;
         left:  250px;
+        font-size: 16px;
+    }
+    .header-img{
+        width: 50px;
     }
     .header-nav{
         margin-left: -520px;
@@ -15,19 +19,19 @@
         .header-wrap1{
             .header-title{
                 width: 250px;
-                font-size: 18px;
+                font-size: 16px;
                 margin-top: -550px;
                 margin-left: -60px;
                 text-align: center;
             }
             .header-btnbox{
-                margin-left: -40px;
+                margin-left: -20px;
                 .headerbtn{
-                    padding: 10px 70px;
+                    padding: 10px 50px;
                 }
             }
             .header-text{
-                font-size: 12px;
+                font-size: 10px;
                 text-align: center;
                 margin-left: -20px;
                 width: 200px;
@@ -35,14 +39,14 @@
         }
         .header-wrap3{
             .header-pic{
-                width: 300;
-                height: 300px;
+                width: 200;
+                height: 250px;
                 margin-left: -50px;
             }
         }
     }
     .section-title{
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 0px;
         margin-left: -50px;
     }
@@ -70,7 +74,7 @@
     }
     .section-btn{
         padding: 8px 15px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .section-image1{
         width: 150px;
@@ -79,11 +83,11 @@
         margin-top: 30px;
     }
     .section-list{
-        font-size: 18px;
+        font-size: 16px;
 
     }
     .section-taxt{
-        font-size: 14px;
+        font-size: 12px;
         width: 130px;
     }
     .section-row{
@@ -113,28 +117,31 @@
     .main-holder{
         display: flex;
         flex-direction: column-reverse;
+        .main-img{
+            width: 200px;
+            height: 200px;
+        }
         .main-list{
             margin-left: -50px;
-    }
+        }
     .main-logo{
         position: absolute;
-        top: 3600px;
+        top: 3550px;
         left: 100px;
     }
     .main-text{
-        text-align: center;
         margin-left: -70px;
-        width: 100px;
+        width: 80px;
     }
     .main-nomber{
         margin-left: -50px;
     }
     }
     .main-nomber{
-        font-size: 26px;
+        font-size: 18px;
     }
     .main__img-box{
-        margin-left: -110px;
+        margin-left: -50px;
     }
     .main__wrapper-box{
         display: block;
@@ -158,9 +165,9 @@
     }
     .main-taxt{
         text-align: center;
-        width: 300px;
-        font-size: 16px;
-        margin-left: -20px;
+        width: 200px;
+        font-size: 14px;
+        margin-left: 50px;
     }
     .main-btn{
         margin-left: 40px;
@@ -172,7 +179,7 @@
         font-size: 18px;
     }
     .btn1{
-        font-size: 13px;
+        font-size: 10px;
     }
     .footer-box{
         display: block;
@@ -180,6 +187,7 @@
             margin-left: -40px;
         }
         .footer-text{
+            width: 200px;
             text-align: center;
             margin-left: -140px;
         }
@@ -189,7 +197,7 @@
     }
     .footer-logo{
         position: absolute;
-        top: 6500px;
+        top: 6350px;
         left: 80px;
     }
     .subsciber{
